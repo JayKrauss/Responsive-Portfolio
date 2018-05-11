@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-image: url('../../Assets/Images/graystone.png');
+    background-color: #4aaaa5;
+    height: auto;
+    align-content: center;
+}
+
+#profile {
+    float: left;
+    border: 2px solid gray;
+    width: 20%;
+    height: 100px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 10.38%;
+    padding-top: 2px;
+    padding-right: 10%;
+}
+
+h1 {
+    float: left;
+    height: 50;
+    width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+
+}
+
+h2 {
+    height: 50px;
+    width: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 14px;
+    text-emphasis: none;
+    font-style: normal;
+
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    width: 80%;
+    height: 750px;
+    background-color: #ffffff;
+    padding: 25px;
+
+}
+
+aside {
+    float: left;
+    width: 200px;
+    height: 200px;
+
+}
+
+p {
+    font-size: 16px;
+    text-indent: 30px;
+    float: left;
+    width: 85%;
+
+}
+
+about {
+    width: 85px;
+    height: 50px;
+    float: right;
+}
+
+portfolio {
+    width: 85px;
+    height: 50px;
+    float: right;
+}
+
+contact {
+    margin-left: 10px;
+    width: 85px;
+    height: 50px;
+    float: right;
+}
+
+nav {
+    float: right;
+    width: 85%;
+    height: 20px;
+    margin-top: 65px;
+}
+
+a { 
+    color: gray;
+    font-style: normal;
+    text-underline-position: initial;
+}
+
+form {
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 800px;
+    background-color: #ffffff;
+    padding: 25px;
+
+}
+
+#RWDPic {
+    height: 500px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+}
+
+@media screen and (max-width: 640px) {
+/* At minimum width, we want things to stack up and not carry the same float. The banner needs to be fluid so as to not take up too much room. */
+* {
+    float: none;
+    width: 100%;
+}
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        border-bottom: 2px solid darkgray;
+        margin-bottom: 10px;
+        padding-left: 10.38%;
+        padding-top: 2px;
+        padding-right: 10%;
+    }
+}
+
+}
+
+@media screen and (max-width: 768px) {
+/* At mid width, the banner still needs adjusted for size and not held to fixed */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 10px;
+    padding-left: 10.38%;
+    padding-top: 2px;
+    padding-right: 10%;
+}
+
+}
+
+@media screen and (max-width: 980px) {
+/* At maximum width, not much should have to change, as the website was designed at this width. */
+
+}
