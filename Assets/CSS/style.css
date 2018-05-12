@@ -141,15 +141,15 @@ form {
     float: none;
     width: 100%;
 }
-    header {
-        width: 100%;
-        height: 100px;
-        background-color: #ffffff;
-        border-bottom: 2px solid darkgray;
-        margin-bottom: 10px;
-        padding-left: 10.38%;
-        padding-top: 2px;
-        padding-right: 10%;
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 10px;
+    padding-left: 10.38%;
+    padding-top: 2px;
+    padding-right: 10%;
     }
 }
 
